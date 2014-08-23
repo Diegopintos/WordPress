@@ -2,7 +2,7 @@
 /*
 Plugin Name: Limiter le nombre de caractère dans le titre d'un article
 Description: Limiter le nombre de caractère dans le titre d'un article
-Version: 12 04 2014
+Version: 1.0.1 - 12 04 2014
 Author: lesurfeur
 */
 

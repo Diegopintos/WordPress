@@ -1,0 +1,11 @@
+/*
+Theme Name: X Child
+Theme URI: http://xxxx.xx/themes/x/
+Description: Sample child theme for customization.
+Author: You
+Author URI:
+Template: x
+Version: 1.0.0
+*/
+@import url("../x/style.css");
+/* ------------------------------------------------------------------------- *

@@ -30,9 +30,9 @@ function shortened_title() {
 
 	$original_title = get_the_title();
 	$title = html_entity_decode($original_title, ENT_QUOTES, "UTF-8");
-	// indiquer le nombre de caratère
+	// the number of character (indiquer le nombre de caratère)
 	$limit = "24";
-	// fin du titre couper
+	// end of the title cut (fin du titre couper)
 	$ending="...";
 
 	if(strlen($title) >= ($limit+3)) {

@@ -1,25 +1,25 @@
 <?php
 /*
-Plugin Name: Limiter le nombre de caractère dans le titre d'un article
-Description: Limiter le nombre de caractère dans le titre d'un article
+Plugin Name: Truncate titles // Tronquer les titres
+Description: Limit the number of characters in the title of an article // Limiter le nombre de caractère dans le titre d'un article
 Version: 1.0.1 - 12 04 2014
 Author: lesurfeur
 */
 /*****************
 **  UTILISATION **
 ******************
-Remplacer dans content.php :
+Replace in (Remplacer dans) content.php :
 <?php if ( is_single() ) {
 
-par 
+by (par) 
 
 <?php if ( is_single() || is_search() ) { ?>
 
-remplacer :
+Replace (remplacer) :
 
 <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'quark' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 
-par
+by (par)
 
 <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'quark' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php shortened_title(); ?></a>
 

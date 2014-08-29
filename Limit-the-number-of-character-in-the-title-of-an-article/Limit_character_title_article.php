@@ -9,7 +9,7 @@
  * License: GPL2 license
  */
 
-/*****************
+/******************
  **  UTILISATION **
  ******************
  Replace in your theme (Remplacer dans) content.php :

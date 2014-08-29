@@ -1,0 +1,30 @@
+/*
+Theme Name: X Child
+Theme URI: http://xxxx.xx/themes/x/
+Description: Sample child theme for customization.
+Author: You
+Author URI:
+Template: x
+Version: 1.0.0
+*/
+@import url("../x/style.css");
+/* ------------------------------------------------------------------------- *
+* Theme customization starts here
+/* ------------------------------------------------------------------------- */
+/* Global */
+.mystyle {}
+
+/* Tablet - 800px, 768px & 720px */
+@media only screen and (min-width: 720px) and (max-width: 800px) {
+.mystyle {}
+}
+
+/* Mobile - 480px & 320px */
+@media only screen and (max-width: 719px) {
+.mystyle {}
+}
+
+/* Mobile - 320px */
+@media only screen and (max-width: 479px) {
+.mystyle {}
+}

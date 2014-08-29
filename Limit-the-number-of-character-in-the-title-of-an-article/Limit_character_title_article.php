@@ -1,10 +1,14 @@
 <?php
-/*
-Plugin Name: Truncate titles // Tronquer les titres
-Description: Limit the number of characters in the title of an article // Limiter le nombre de caractère dans le titre d'un article
-Version: 1.0.1 - 12 04 2014
-Author: lesurfeur
-*/
+/**
+ * Plugin Name: Truncate titles // Tronquer les titres
+ * Plugin URI: https://github.com/lesurfeur/Plugin-WP
+ * Description: Limit the number of characters in the title of an article // Limiter le nombre de caractère dans le titre d'un article.
+ * Version: Version 1.0.0
+ * Author: lesurfeur
+ * Author URI:  https://github.com/lesurfeur
+ * License: GPL2 license
+ */
+
 /*****************
 **  UTILISATION **
 ******************

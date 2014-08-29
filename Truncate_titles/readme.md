@@ -22,5 +22,6 @@ Locate and open the file content.php in your theme:
 ```
  - by:
 
-```<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'Your_Theme' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php shortened_title(); ?></a>
+```
+<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'Your_Theme' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php shortened_title(); ?></a>
 ```

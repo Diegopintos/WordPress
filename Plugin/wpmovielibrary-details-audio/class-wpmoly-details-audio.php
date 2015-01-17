@@ -9,7 +9,7 @@
  * @copyright 2014 Charlie MERLAND
  */
 
-if ( ! class_exists( 'WPMovieLibrary_Trailers' ) ) :
+if ( ! class_exists( 'WPMovieLibrary_Details_Audio' ) ) :
 
 	/**
 	* Plugin class
@@ -17,7 +17,7 @@ if ( ! class_exists( 'WPMovieLibrary_Trailers' ) ) :
 	* @package WPMovieLibrary-Details-Audio
 	* @author  Charlie MERLAND <charlie@caercam.org>
 	*/
-	class WPMovieLibrary_Details extends WPMOLY_Details_Module {
+	class WPMovieLibrary_Details_Audio extends WPMOLY_Details_Module {
 
 		/**
 		 * Settings for new detail
@@ -335,7 +335,7 @@ if ( ! class_exists( 'WPMovieLibrary_Trailers' ) ) :
 				if ( isset( $this->detail['options'][ $d ] ) )
 					$title[] = $this->detail['options'][ $d ];
 
-			$data = WPMovieLibrary::render_template( $view, array( 'detail' => 'audio', 'data' => 'audio', 'title' => implode( ', ', $title ) ), $require = 'always' );
+			$data = WPMovieLibrary::render_template( $view, array( 'detail' => 'audio', 'data' => 'audio', 'title' => implode( '<br /> ', $title ) ), $require = 'always' );
 
 			return $data;
 		}

@@ -96,10 +96,10 @@ if ( wpmoly_details_media_requirements_met() ) {
 	require_once( WPMOLY_DETAILS_MEDIA_PATH . 'includes/class-module.php' );
 	require_once( WPMOLY_DETAILS_MEDIA_PATH . 'class-wpmoly-details-media.php' );
 
-	if ( class_exists( 'WPMovieLibrary_Details' ) ) {
-		$GLOBALS['wpmoly_details'] = new WPMovieLibrary_Details();
-		register_activation_hook(   __FILE__, array( $GLOBALS['wpmoly_details'], 'activate' ) );
-		register_deactivation_hook( __FILE__, array( $GLOBALS['wpmoly_details'], 'deactivate' ) );
+	if ( class_exists( 'WPMovieLibrary_Details_Media' ) ) {
+		$GLOBALS['wpmoly_details_media'] = new WPMovieLibrary_Details_Media();
+		register_activation_hook(   __FILE__, array( $GLOBALS['wpmoly_details_media'], 'activate' ) );
+		register_deactivation_hook( __FILE__, array( $GLOBALS['wpmoly_details_media'], 'deactivate' ) );
 	}
 }
 else {

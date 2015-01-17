@@ -9,7 +9,7 @@
  * @copyright 2014 Charlie MERLAND
  */
 
-if ( ! class_exists( 'WPMovieLibrary_Trailers' ) ) :
+if ( ! class_exists( 'WPMovieLibrary_Details_Media' ) ) :
 
 	/**
 	* Plugin class
@@ -17,7 +17,7 @@ if ( ! class_exists( 'WPMovieLibrary_Trailers' ) ) :
 	* @package WPMovieLibrary-Details-Media
 	* @author  Charlie MERLAND <charlie@caercam.org>
 	*/
-	class WPMovieLibrary_Details extends WPMOLY_Details_Module {
+	class WPMovieLibrary_Details_Media extends WPMOLY_Details_Module {
 
 		/**
 		 * Settings for new detail

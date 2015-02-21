@@ -13,6 +13,7 @@
  **  UTILISATION **
  ******************
  Chercher dans votre theme content.php et remplacer :
+ 
  <?php if ( is_single() ) {
 
  Par :

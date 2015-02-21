@@ -1,8 +1,8 @@
 <?php
 /**
- * Plugin Name: Truncate titles // Tronquer les titres
+ * Plugin Name: Tronquer les titres
  * Plugin URI: https://github.com/lesurfeur/Plugin-WP
- * Description: Limit the number of characters in the title of an article // Limiter le nombre de caractère dans le titre d'un article.
+ * Description: Limiter le nombre de caractère dans le titre d'un article.
  * Version: Version 1.0.0
  * Author: lesurfeur
  * Author URI:  https://github.com/lesurfeur
@@ -12,20 +12,20 @@
 /******************
  **  UTILISATION **
  ******************
- Replace in your theme (Remplacer dans) content.php :
+ Chercher dans votre theme content.php et remplacer :
  <?php if ( is_single() ) {
 
- by (par) 
+ Par :
 
  <?php if ( is_single() || is_search() ) { ?>
 
- Replace (remplacer) :
+ Remplacer :
 
- <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'Your_Theme' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
+ <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'Votre_Theme' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a>
 
- by (par)
+ Par :
 
- <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'Your_Theme' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php shortened_title(); ?></a>
+ <a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( esc_html__( 'Permalink to %s', 'Votre_Theme' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php shortened_title(); ?></a>
 
  ******************/
 

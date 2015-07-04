@@ -24,5 +24,5 @@ Media Library is distributed under the terms of the GNU GPL v2
 
 ![Image of fiche](https://cloud.githubusercontent.com/assets/5854465/8507367/53009852-2240-11e5-81d1-cd577ee5bb10.jpg)
 
-![films](https://cloud.githubusercontent.com/assets/5854465/8507482/83f7063a-2245-11e5-8ae7-c93e09dd05bd.jpg)
+![Image of films](https://cloud.githubusercontent.com/assets/5854465/8507482/83f7063a-2245-11e5-8ae7-c93e09dd05bd.jpg)
 

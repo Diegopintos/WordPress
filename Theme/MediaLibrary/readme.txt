@@ -25,3 +25,4 @@ Media Library is distributed under the terms of the GNU GPL v2
 # Screenshots
 ----------------
 
+https://cloud.githubusercontent.com/assets/5854465/8507367/53009852-2240-11e5-81d1-cd577ee5bb10.jpg

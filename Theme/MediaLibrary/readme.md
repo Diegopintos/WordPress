@@ -1,6 +1,6 @@
 # Copyright
 
-Media Library WordPress Theme, Copyright 2014 lesurfeur
+Media Library WordPress Theme, Copyright 2015 lesurfeur
 Media Library is distributed under the terms of the GNU GPL v2
 
 
